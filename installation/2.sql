@@ -1,3 +1,3 @@
-BEGIN
-    DBMS_OUTPUT.ENABLE (buffer_size => NULL);
-END;
+begin
+    dbms_output.put_line('Hello, world_');
+end;
