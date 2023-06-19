@@ -1,4 +1,1 @@
-begin
-    
-    dbms_outp
-end;
+BEGIN DBMS_OUTPUT.ENABLE (buffer_size => NULL); END;
